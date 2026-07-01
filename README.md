@@ -72,7 +72,6 @@ If you'd like, I can also:
 
 ### Built with ❤️ by [Gous Khan](mailto:gousk2004@gmail.com)
 
-**KRATOS 2026** — Where Event Management Meets Excellence
 
 ⭐ If you find this project valuable, please consider giving it a star! ⭐
 
