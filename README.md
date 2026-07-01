@@ -66,3 +66,14 @@ This project is licensed under the terms in the `LICENSE` file.
 If you'd like, I can also:
 - Set a short repository description you can paste into the GitHub repo settings, and
 - Add a requirements.txt file generated from the notebook and script imports.
+
+
+<div align="center">
+
+### Built with ❤️ by [Gous Khan](mailto:gousk2004@gmail.com)
+
+**KRATOS 2026** — Where Event Management Meets Excellence
+
+⭐ If you find this project valuable, please consider giving it a star! ⭐
+
+</div>
