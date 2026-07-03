@@ -1,0 +1,15 @@
+# Exclude Python scripts and Jupyter notebooks
+train_export_forecast.py
+sales_forecasting.ipynb
+sales_forecasting_complete.ipynb
+
+# Exclude heavy dataset and model files
+Sample - Superstore.csv
+model.joblib
+
+# Exclude static preview images
+*.png
+
+# Exclude git and notes
+.git
+TODO.md
