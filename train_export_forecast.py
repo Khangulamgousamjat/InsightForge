@@ -269,6 +269,11 @@ def main():
     df = pd.read_csv(csv_path, encoding='latin-1')
     if 'Order Date' not in df.columns or 'Sales' not in df.columns:
         raise RuntimeError('Expected columns not found in CSV.')
+    
+    # Convert all currency values from USD to INR
+    df['Sales'] = df['Sales'] * 83
+    if 'Profit' in df.columns:
+        df['Profit'] = df['Profit'] * 83
 
     df['Order Date'] = pd.to_datetime(df['Order Date'])
     df['Ship Date'] = pd.to_datetime(df['Ship Date']) if 'Ship Date' in df.columns else df['Order Date']
